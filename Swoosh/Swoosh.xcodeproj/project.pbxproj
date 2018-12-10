@@ -14,6 +14,7 @@
 		BFE7216D21BE581B0069C630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE7216B21BE581B0069C630 /* LaunchScreen.storyboard */; };
 		BFE7217821BE581B0069C630 /* SwooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7217721BE581B0069C630 /* SwooshTests.swift */; };
 		BFE7218321BE581B0069C630 /* SwooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7218221BE581B0069C630 /* SwooshUITests.swift */; };
+		BFE7219221BE5E1F0069C630 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7219121BE5E1F0069C630 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BFE7217E21BE581B0069C630 /* SwooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE7218221BE581B0069C630 /* SwooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwooshUITests.swift; sourceTree = "<group>"; };
 		BFE7218421BE581B0069C630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE7219121BE5E1F0069C630 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BorderButton.swift; path = Swoosh/BorderButton.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BFE7216121BE58190069C630 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				BFE7219021BE5DB30069C630 /* Views */,
 				BFE7216221BE58190069C630 /* AppDelegate.swift */,
 				BFE7216421BE58190069C630 /* ViewController.swift */,
 				BFE7216621BE58190069C630 /* Main.storyboard */,
@@ -123,6 +126,15 @@
 				BFE7218421BE581B0069C630 /* Info.plist */,
 			);
 			path = SwooshUITests;
+			sourceTree = "<group>";
+		};
+		BFE7219021BE5DB30069C630 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7219121BE5E1F0069C630 /* BorderButton.swift */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +270,7 @@
 			files = (
 				BFE7216521BE58190069C630 /* ViewController.swift in Sources */,
 				BFE7216321BE58190069C630 /* AppDelegate.swift in Sources */,
+				BFE7219221BE5E1F0069C630 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z9PKA625W;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z9PKA625W;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
