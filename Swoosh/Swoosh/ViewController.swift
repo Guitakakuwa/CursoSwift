@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imagemdoroger: UIImageView!
+    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var Fundo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+    }
 
 }
 
