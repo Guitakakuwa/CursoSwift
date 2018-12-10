@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE7212721BDC5190069C630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7212621BDC5190069C630 /* AppDelegate.swift */; };
+		BFE7212921BDC5190069C630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7212821BDC5190069C630 /* ViewController.swift */; };
+		BFE7212C21BDC5190069C630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE7212A21BDC5190069C630 /* Main.storyboard */; };
+		BFE7212E21BDC51B0069C630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE7212D21BDC51B0069C630 /* Assets.xcassets */; };
+		BFE7213121BDC51B0069C630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE7212F21BDC51B0069C630 /* LaunchScreen.storyboard */; };
+		BFE7213C21BDC51B0069C630 /* FogueteQueVoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7213B21BDC51B0069C630 /* FogueteQueVoaTests.swift */; };
+		BFE7214721BDC51B0069C630 /* FogueteQueVoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE7214621BDC51B0069C630 /* FogueteQueVoaUITests.swift */; };
+		BFE7215521BDD1EC0069C630 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFE7215421BDD1EC0069C630 /* hustle-on.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE7213821BDC51B0069C630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE7211B21BDC5180069C630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE7212221BDC5190069C630;
+			remoteInfo = FogueteQueVoa;
+		};
+		BFE7214321BDC51B0069C630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE7211B21BDC5180069C630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE7212221BDC5190069C630;
+			remoteInfo = FogueteQueVoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE7212321BDC5190069C630 /* FogueteQueVoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FogueteQueVoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7212621BDC5190069C630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE7212821BDC5190069C630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFE7212B21BDC5190069C630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE7212D21BDC51B0069C630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE7213021BDC51B0069C630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE7213221BDC51B0069C630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE7213721BDC51B0069C630 /* FogueteQueVoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogueteQueVoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7213B21BDC51B0069C630 /* FogueteQueVoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogueteQueVoaTests.swift; sourceTree = "<group>"; };
+		BFE7213D21BDC51B0069C630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE7214221BDC51B0069C630 /* FogueteQueVoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogueteQueVoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7214621BDC51B0069C630 /* FogueteQueVoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogueteQueVoaUITests.swift; sourceTree = "<group>"; };
+		BFE7214821BDC51B0069C630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE7215421BDD1EC0069C630 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE7212021BDC5190069C630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7213421BDC51B0069C630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7213F21BDC51B0069C630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE7211A21BDC5180069C630 = {
+			isa = PBXGroup;
+			children = (
+				BFE7212521BDC5190069C630 /* FogueteQueVoa */,
+				BFE7213A21BDC51B0069C630 /* FogueteQueVoaTests */,
+				BFE7214521BDC51B0069C630 /* FogueteQueVoaUITests */,
+				BFE7212421BDC5190069C630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE7212421BDC5190069C630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7212321BDC5190069C630 /* FogueteQueVoa.app */,
+				BFE7213721BDC51B0069C630 /* FogueteQueVoaTests.xctest */,
+				BFE7214221BDC51B0069C630 /* FogueteQueVoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE7212521BDC5190069C630 /* FogueteQueVoa */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7212621BDC5190069C630 /* AppDelegate.swift */,
+				BFE7215421BDD1EC0069C630 /* hustle-on.wav */,
+				BFE7212821BDC5190069C630 /* ViewController.swift */,
+				BFE7212A21BDC5190069C630 /* Main.storyboard */,
+				BFE7212D21BDC51B0069C630 /* Assets.xcassets */,
+				BFE7212F21BDC51B0069C630 /* LaunchScreen.storyboard */,
+				BFE7213221BDC51B0069C630 /* Info.plist */,
+			);
+			path = FogueteQueVoa;
+			sourceTree = "<group>";
+		};
+		BFE7213A21BDC51B0069C630 /* FogueteQueVoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7213B21BDC51B0069C630 /* FogueteQueVoaTests.swift */,
+				BFE7213D21BDC51B0069C630 /* Info.plist */,
+			);
+			path = FogueteQueVoaTests;
+			sourceTree = "<group>";
+		};
+		BFE7214521BDC51B0069C630 /* FogueteQueVoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7214621BDC51B0069C630 /* FogueteQueVoaUITests.swift */,
+				BFE7214821BDC51B0069C630 /* Info.plist */,
+			);
+			path = FogueteQueVoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE7212221BDC5190069C630 /* FogueteQueVoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE7214B21BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoa" */;
+			buildPhases = (
+				BFE7211F21BDC5190069C630 /* Sources */,
+				BFE7212021BDC5190069C630 /* Frameworks */,
+				BFE7212121BDC5190069C630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FogueteQueVoa;
+			productName = FogueteQueVoa;
+			productReference = BFE7212321BDC5190069C630 /* FogueteQueVoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE7213621BDC51B0069C630 /* FogueteQueVoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE7214E21BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoaTests" */;
+			buildPhases = (
+				BFE7213321BDC51B0069C630 /* Sources */,
+				BFE7213421BDC51B0069C630 /* Frameworks */,
+				BFE7213521BDC51B0069C630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE7213921BDC51B0069C630 /* PBXTargetDependency */,
+			);
+			name = FogueteQueVoaTests;
+			productName = FogueteQueVoaTests;
+			productReference = BFE7213721BDC51B0069C630 /* FogueteQueVoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFE7214121BDC51B0069C630 /* FogueteQueVoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE7215121BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoaUITests" */;
+			buildPhases = (
+				BFE7213E21BDC51B0069C630 /* Sources */,
+				BFE7213F21BDC51B0069C630 /* Frameworks */,
+				BFE7214021BDC51B0069C630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE7214421BDC51B0069C630 /* PBXTargetDependency */,
+			);
+			name = FogueteQueVoaUITests;
+			productName = FogueteQueVoaUITests;
+			productReference = BFE7214221BDC51B0069C630 /* FogueteQueVoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE7211B21BDC5180069C630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Guilherme Takakuwa";
+				TargetAttributes = {
+					BFE7212221BDC5190069C630 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BFE7213621BDC51B0069C630 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFE7212221BDC5190069C630;
+					};
+					BFE7214121BDC51B0069C630 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFE7212221BDC5190069C630;
+					};
+				};
+			};
+			buildConfigurationList = BFE7211E21BDC5180069C630 /* Build configuration list for PBXProject "FogueteQueVoa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE7211A21BDC5180069C630;
+			productRefGroup = BFE7212421BDC5190069C630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE7212221BDC5190069C630 /* FogueteQueVoa */,
+				BFE7213621BDC51B0069C630 /* FogueteQueVoaTests */,
+				BFE7214121BDC51B0069C630 /* FogueteQueVoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE7212121BDC5190069C630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7215521BDD1EC0069C630 /* hustle-on.wav in Resources */,
+				BFE7213121BDC51B0069C630 /* LaunchScreen.storyboard in Resources */,
+				BFE7212E21BDC51B0069C630 /* Assets.xcassets in Resources */,
+				BFE7212C21BDC5190069C630 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7213521BDC51B0069C630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7214021BDC51B0069C630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE7211F21BDC5190069C630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7212921BDC5190069C630 /* ViewController.swift in Sources */,
+				BFE7212721BDC5190069C630 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7213321BDC51B0069C630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7213C21BDC51B0069C630 /* FogueteQueVoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE7213E21BDC51B0069C630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7214721BDC51B0069C630 /* FogueteQueVoaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE7213921BDC51B0069C630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE7212221BDC5190069C630 /* FogueteQueVoa */;
+			targetProxy = BFE7213821BDC51B0069C630 /* PBXContainerItemProxy */;
+		};
+		BFE7214421BDC51B0069C630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE7212221BDC5190069C630 /* FogueteQueVoa */;
+			targetProxy = BFE7214321BDC51B0069C630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE7212A21BDC5190069C630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE7212B21BDC5190069C630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE7212F21BDC51B0069C630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE7213021BDC51B0069C630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE7214921BDC51B0069C630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFE7214A21BDC51B0069C630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE7214C21BDC51B0069C630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE7214D21BDC51B0069C630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFE7214F21BDC51B0069C630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FogueteQueVoa.app/FogueteQueVoa";
+			};
+			name = Debug;
+		};
+		BFE7215021BDC51B0069C630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FogueteQueVoa.app/FogueteQueVoa";
+			};
+			name = Release;
+		};
+		BFE7215221BDC51B0069C630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FogueteQueVoa;
+			};
+			name = Debug;
+		};
+		BFE7215321BDC51B0069C630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FogueteQueVoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swiftCourse1.FogueteQueVoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FogueteQueVoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE7211E21BDC5180069C630 /* Build configuration list for PBXProject "FogueteQueVoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7214921BDC51B0069C630 /* Debug */,
+				BFE7214A21BDC51B0069C630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE7214B21BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7214C21BDC51B0069C630 /* Debug */,
+				BFE7214D21BDC51B0069C630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE7214E21BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7214F21BDC51B0069C630 /* Debug */,
+				BFE7215021BDC51B0069C630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE7215121BDC51B0069C630 /* Build configuration list for PBXNativeTarget "FogueteQueVoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7215221BDC51B0069C630 /* Debug */,
+				BFE7215321BDC51B0069C630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE7211B21BDC5180069C630 /* Project object */;
+}
