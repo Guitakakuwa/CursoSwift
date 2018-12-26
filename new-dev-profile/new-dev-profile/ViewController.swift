@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Swoosh
+//  new-dev-profile
 //
-//  Created by Guilherme Takakuwa on 12/10/18.
+//  Created by Guilherme Takakuwa on 12/26/18.
 //  Copyright © 2018 Guilherme Takakuwa. All rights reserved.
 //
 
@@ -10,16 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var imagemdoroger: UIImageView!
     @IBOutlet weak var logo: UIImageView!
-    @IBOutlet weak var Fundo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
 
-    }
-    @IBAction func voltarDeHabilidadeVC (unwindSegue: UIStoryboardSegue){
-        
-    }
+
 }
 
